@@ -19,27 +19,27 @@ inicializa a segunda fase.
 <h2>Segunda fase</h2>
 
 Esta é a fase em que o usuário realiza o saque de dinheiro.<br>
-<b>a)</b> O programa deve informar que as notas disponíveis são de 10, 50 e 100 Reais
+<b>a)</b> O programa deve informar que as notas disponíveis são de 10, 50 e 100 Reais.<br>
 <b>b)</b> Solicitar o valor que o usuário deseja sacar e ao clicar num botão “Solicitar saque”, o
 programa…<br>
 
 <b>c)</b> Primeiro válida de o valor é maior que 0 (zero). Caso não seja, exiba um alerta “Não
-é possível sacar 0 ou menos”.<br>
+é possível sacar 0 ou menos”.<br><br>
 <b>d)</b> Depois valida se o valor do saque é maior que o valor total disponível. Caso seja
-exiba um alerta com “Montante disponível não atende a solicitação”.<br>
+exiba um alerta com “Montante disponível não atende a solicitação”.<br><br>
 <b>e)</b> Caso o valor do saque for maior que zero e menor ou igual ao valor total disponível,
 verificar se o saque é possível, considerando que só existem notas de 10, 50 e 100 na
 máquina.<br> Por exemplo, não é possível sacar R$25,00, pois não temos cédulas de
 R$5,00. Se não for possível, exibir um alerta “Valor não possível devido às notas
-disponíveis”<br>
+disponíveis”<br><br>
 <b>f)</b> Caso o valor do saque seja possível, verificar se existe cédulas suficiente para
 atender o saque. Considere que o programa inicia com as cédulas informadas na
 primeira fase e vai reduzindo a cada saque realizado. O usuário não vê essa quantidade
 de cédulas! Caso a quantidade de cédula não seja o suficiente exiba o alerta “A
-quantidade e valor das cédulas disponíveis não atende o valor desejado”<br>
+quantidade e valor das cédulas disponíveis não atende o valor desejado”<br><br>
 <b>g)</b> Caso o valor solicitado seja possível após as validações acima, exibir “Retire o
 dinheiro no local indicado”. Atualize a quantidade disponível de cédulas (lembre-se
-que o usuário não vê essa informação).<br>
+que o usuário não vê essa informação).<br><br>
 
 <b>OBS. Sempre que possível utilize a menor quantidade de cédulas possível para atender
 o saque do cliente.</b>
