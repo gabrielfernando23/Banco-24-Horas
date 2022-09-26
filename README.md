@@ -1,6 +1,6 @@
 # Banco-24-Horas
 Desafio proposto pelo professor Frizzarini na disciplina de algoritmos.
-
+<h2>Enunciado:</h2>
 
 <h1>Super desafio - BANCO 24h </h1>
 
@@ -19,7 +19,7 @@ inicializa a segunda fase.
 <h2>Segunda fase</h2>
 
 Esta é a fase em que o usuário realiza o saque de dinheiro.<br>
-<b>a)</b> O programa deve informar que as notas disponíveis são de 10, 50 e 100 Reais.<br>
+<b>a)</b> O programa deve informar que as notas disponíveis são de 10, 50 e 100 Reais.<br><br>
 <b>b)</b> Solicitar o valor que o usuário deseja sacar e ao clicar num botão “Solicitar saque”, o
 programa…<br>
 
