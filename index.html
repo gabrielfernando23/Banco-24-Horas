@@ -78,16 +78,6 @@
                 cinq();
             }
         } 
-        else if (saque % 100 == 1) {
-            if((saque / 100) <= notas_cem){
-                notas_cem--
-                valor_disponivel -= 100
-                msg.innerHTML = `Retire o dinheiro no local indicado`
-            }
-            else{
-                cinq();
-            }
-        }
         else {
             cinq();
         }
@@ -102,11 +92,6 @@
            } else {
             dez();
            } 
-        }
-        else if(saque % 50 == 1){
-            notas_cinq--
-                valor_disponivel -= 50
-                msg.innerHTML = `Retire o dinheiro no local indicado`
         } 
         else {
             dez();
@@ -121,12 +106,5 @@
                 msg.innerHTML = `Retire o dinheiro no local indicado`
             }
         } 
-        else if (saque % 10 == 1) {
-            if((saque / 10) <= notas_dez){
-                notas_dez--
-                valor_disponivel -= 100
-                msg.innerHTML = `Retire o dinheiro no local indicado`
-            }
         }
-    }
 </script>
