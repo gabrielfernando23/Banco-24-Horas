@@ -61,38 +61,25 @@
     }
     
     function cem() {
-        if (saque % 100 == 0) {
-            if ((saque / 100) <= notas_cem) {
-                notas_cem -= (saque / 100)
-                valor_disponivel -= saque
-                msg.innerHTML = `Retire o dinheiro no local indicado`
-            }
-            else{
-                cinq();
-            }
-        } 
-        else {
+         if ((saque / 100) <= notas_cem) {
+             notas_cem -= (saque / 100)
+             valor_disponivel -= saque
+            msg.innerHTML = `Retire o dinheiro no local indicado`
+        }
+        else{
             cinq();
         }
     }
 
     function cinq() {
-        if (saque % 50 == 0) {
-           if ((saque / 50) <= notas_cinq) {
-            notas_cinq -= (saque / 50)
-                valor_disponivel -= saque
-                msg.innerHTML = `Retire o dinheiro no local indicado`
-           } else {
-            dez();
-           } 
-<<<<<<< HEAD
-        }
-=======
-        } 
->>>>>>> b6848831e56e3d1e1b672dbbd7eb3fdfb832c0fd
+        if ((saque / 50) <= notas_cinq) {
+        notas_cinq -= (saque / 50)
+         valor_disponivel -= saque
+        msg.innerHTML = `Retire o dinheiro no local indicado`
+           }
         else {
             dez();
-        }
+        } 
     }
 
     function dez() {
@@ -103,9 +90,8 @@
                 msg.innerHTML = `Retire o dinheiro no local indicado`
             }
         } 
-<<<<<<< HEAD
         else{
-=======
->>>>>>> b6848831e56e3d1e1b672dbbd7eb3fdfb832c0fd
+
+         }
         }
 </script>
